@@ -1,8 +1,10 @@
-import React from 'react';
 import '../hojas-de-estilo/Testimonio.css';
 
+import React from 'react';
+
 function Testimonio(props) {
-  let textoAlt = 'Foto de ' + props.nombre;
+  const textoAlt = 'Foto de ' + props.nombre;
+
   return (
     <div className='contenedor-testimonio'>
       <img 
