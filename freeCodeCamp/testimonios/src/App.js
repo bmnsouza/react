@@ -1,6 +1,5 @@
 import './App.css';
 import React from 'react';
-
 import InfoTestimonio from './componentes/Info-testimonio';
 import Testimonio from './componentes/Testimonio';
 
